@@ -1,0 +1,119 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/Users/chaklader/CLionProjects/CppND-Route-Planning-Project/lib/libio2d_core.a"
+			],
+			"targetId" : "io2d_core::@175e3c861e09668cd8bc",
+			"targetIndex" : 7,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/test_process.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/test_renderer.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xbrushes.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xbrushes_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xcolor.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xdiagnostics.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xgraphicsmath.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xgraphicsmath_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xgraphicsmathfloat_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xinput.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xinterchangebuffer.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xio2d.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xio2d_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xpath.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xpath_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xpathbuilder_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xsurfaces.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xsurfaces_enums.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xsurfaces_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xsurfacesprops_impl.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xsystemheaders.h",
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/xtext.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/io2d",
+			"exportName" : "io2d_targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "io2d_core::@175e3c861e09668cd8bc",
+					"index" : 7
+				},
+				{
+					"id" : "io2d_cairo::@4a9dba94c9e6260c9986",
+					"index" : 5
+				},
+				{
+					"id" : "io2d_cairo_xlib::@3ddd020f5e8d610d4e54",
+					"index" : 6
+				},
+				{
+					"id" : "io2d::@175e3c861e09668cd8bc",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/CMakeFiles/Export/31736c4fd947c5cd63018067dcd32abd/io2dConfig.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl",
+		"source" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl"
+	}
+}

@@ -1,0 +1,348 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11.3"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9
+					]
+				},
+				{
+					"build" : "thirdparty/pugixml",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.pugixml-Debug-96557657526c61da0f32.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "thirdparty/pugixml",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "thirdparty/googletest",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.googletest-Debug-872198022fe841a2a793.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "thirdparty/googletest"
+				},
+				{
+					"build" : "thirdparty/googletest/googlemock",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.googletest.googlemock-Debug-c81362fb0a4daec41c0a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "thirdparty/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "thirdparty/googletest/googlemock/gtest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.googletest.googlemock.gtest-Debug-8d9f9eb161f4948fa768.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 4,
+					"source" : "thirdparty/googletest/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "thirdparty/P0267_RefImpl",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.P0267_RefImpl-Debug-106eaadf3c196e68ca86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "thirdparty/P0267_RefImpl"
+				},
+				{
+					"build" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl",
+					"childIndexes" : 
+					[
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.P0267_RefImpl.P0267_RefImpl.P0267_RefImpl-Debug-ebc852b77968cb678ec0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 5,
+					"source" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/cairo",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.P0267_RefImpl.P0267_RefImpl.P0267_RefImpl.cairo-Debug-495e3bda7014cf36a797.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/cairo",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/cairo/xlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-thirdparty.P0267_RefImpl.P0267_RefImpl.P0267_RefImpl.cairo.xlib-Debug-7c850e8288f2e2bf6974.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 5,
+					"source" : "thirdparty/P0267_RefImpl/P0267_RefImpl/P0267_RefImpl/cairo/xlib",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "OSM_A_star_search",
+					"targetIndexes" : 
+					[
+						0,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "pugixml",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gmock",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "gtest",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"name" : "io2d",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "OSM_A_star_search::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OSM_A_star_search-Debug-c990a083cf5efb540e0c.json",
+					"name" : "OSM_A_star_search",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock::@4d3ef671eb8d35c7e822",
+					"jsonFile" : "target-gmock-Debug-7e1b82b89d7ffe65e626.json",
+					"name" : "gmock",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gmock_main::@4d3ef671eb8d35c7e822",
+					"jsonFile" : "target-gmock_main-Debug-5dd5a6e918e36561ed60.json",
+					"name" : "gmock_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest::@608549eaf1de948b0df2",
+					"jsonFile" : "target-gtest-Debug-d76d0d1e8fc022e53c96.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "gtest_main::@608549eaf1de948b0df2",
+					"jsonFile" : "target-gtest_main-Debug-647fa20302b31adfb2f2.json",
+					"name" : "gtest_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "io2d_cairo::@4a9dba94c9e6260c9986",
+					"jsonFile" : "target-io2d_cairo-Debug-9d59561cc180fe09dc62.json",
+					"name" : "io2d_cairo",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "io2d_cairo_xlib::@3ddd020f5e8d610d4e54",
+					"jsonFile" : "target-io2d_cairo_xlib-Debug-e1f7fc2eb6642f13460c.json",
+					"name" : "io2d_cairo_xlib",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "io2d_core::@175e3c861e09668cd8bc",
+					"jsonFile" : "target-io2d_core-Debug-0b5f7a709f4c74ba277e.json",
+					"name" : "io2d_core",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pugixml::@611bf7cf6b05006c5233",
+					"jsonFile" : "target-pugixml-Debug-93bf66fc9d29c2c1ea19.json",
+					"name" : "pugixml",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-39eef95f5cd48a3bda4c.json",
+					"name" : "test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/chaklader/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug",
+		"source" : "/Users/chaklader/CLionProjects/CppND-Route-Planning-Project"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
