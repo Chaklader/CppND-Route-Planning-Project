@@ -1,8 +1,3 @@
-/Users/chaklader/CLionProjects/CppND-Route-Planning-Project/thirdparty/P0267_RefImpl/build
-
-cmake -DCMAKE_PREFIX_PATH=/opt/X11 ..
-
-
 # Route Planning Project
 
 This repo contains the starter code for the Route Planning project.
@@ -37,6 +32,9 @@ git clone git@github.com:udacity/CppND-Route-Planning-Project.git --recurse-subm
  
 
 ## Compiling and Running
+
+
+The complete process to build and run is provided in the BUILD.md file in the root of the project.
 
 ### Compiling
 To compile the project, first, create a `build` directory and change to that directory:
