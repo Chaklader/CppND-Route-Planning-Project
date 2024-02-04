@@ -5,7 +5,7 @@
 #include <cmath>
 #include <unordered_map>
 #include "model.h"
-#include <iostream>
+
 
 class RouteModel : public Model {
 public:
@@ -19,26 +19,25 @@ public:
 
         void FindNeighbors();
 
-        float distance(Node other) const {
+        [[nodiscard]] float distance(const Node& other) const {
             return std::sqrt(std::pow((x - other.x), 2) + std::pow((y - other.y), 2));
         }
 
-        Node() {
-        }
+        Node() = default;
 
         Node(int idx, RouteModel *search_model, Model::Node node) : Model::Node(node), parent_model(search_model),
                                                                     index(idx) {
         }
 
     private:
-        int index;
+        int index{};
 
-        Node *FindNeighbor(std::vector<int> node_indices);
+        Node *FindNeighbor(const std::vector<int> &node_indices);
 
         RouteModel *parent_model = nullptr;
     };
 
-    RouteModel(const std::vector<std::byte> &xml);
+    explicit RouteModel(const std::vector<std::byte> &xml);
 
     Node &FindClosestNode(float x, float y);
 

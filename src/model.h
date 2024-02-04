@@ -44,18 +44,18 @@ public:
         Type type;
     };
     
-    Model( const std::vector<std::byte> &xml );
+    explicit Model( const std::vector<std::byte> &xml );
     
-    auto MetricScale() const noexcept { return m_MetricScale; }    
+    [[nodiscard]] auto MetricScale() const noexcept { return m_MetricScale; }
     
-    auto &Nodes() const noexcept { return m_Nodes; }
-    auto &Ways() const noexcept { return m_Ways; }
-    auto &Roads() const noexcept { return m_Roads; }
-    auto &Buildings() const noexcept { return m_Buildings; }
-    auto &Leisures() const noexcept { return m_Leisures; }
-    auto &Waters() const noexcept { return m_Waters; }
-    auto &Landuses() const noexcept { return m_Landuses; }
-    auto &Railways() const noexcept { return m_Railways; }
+    [[nodiscard]] auto &Nodes() const noexcept { return m_Nodes; }
+    [[nodiscard]] auto &Ways() const noexcept { return m_Ways; }
+    [[nodiscard]] auto &Roads() const noexcept { return m_Roads; }
+    [[nodiscard]] auto &Buildings() const noexcept { return m_Buildings; }
+    [[nodiscard]] auto &Leisures() const noexcept { return m_Leisures; }
+    [[nodiscard]] auto &Waters() const noexcept { return m_Waters; }
+    [[nodiscard]] auto &Landuses() const noexcept { return m_Landuses; }
+    [[nodiscard]] auto &Railways() const noexcept { return m_Railways; }
     
 private:
     void AdjustCoordinates();

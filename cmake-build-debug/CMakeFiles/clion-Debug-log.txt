@@ -77,6 +77,6 @@ CMake Deprecation Warning at thirdparty/P0267_RefImpl/CMakeLists.txt:1 (cmake_mi
 
 Default IO2D backend was not specified, choosing automatically...
 Found macOS, using CAIRO_XLIB.
--- Configuring done (1.5s)
+-- Configuring done (1.2s)
 -- Generating done (0.0s)
 -- Build files have been written to: /Users/chaklader/CLionProjects/CppND-Route-Planning-Project/cmake-build-debug
